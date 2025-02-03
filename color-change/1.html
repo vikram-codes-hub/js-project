@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change color game</title>
+    <style>
+    body{
+        background-color: bisque;
+    }
+        .main {
+            height: 700px;
+            width: 700px;
+            
+            margin: auto;
+           
+        }
+
+        h2 {
+            position: absolute;
+            bottom: 0;
+        }
+
+        #grey{
+            height: 166px;
+            width: 188px;
+            background-color: grey;
+            margin-bottom: 10px;
+            border: 2px solid black;
+            border-radius: 31px;
+        }
+        #blue{
+            height: 166px;
+            width: 188px;
+            background-color: blue;
+            margin-bottom: 10px;
+            border: 2px solid black;
+            border-radius: 31px;
+        }
+        #yellow{
+            height: 166px;
+            width: 188px;
+            background-color:yellow;
+            border: 2px solid black;
+            border-radius: 31px;
+        }
+        
+        #purple{
+            height: 166px;
+            width: 188px;
+            background-color:purple;
+            border: 2px solid black;
+            border-radius: 31px;
+        }
+        .boxes {
+            height: 363px;
+            width: 400px;
+          
+
+            margin: auto;
+            left: 534px;
+            display: flex;
+            gap: 10px;
+           
+
+        }
+        h2{
+           margin: auto;
+            margin-left: 48px;
+            position: absolute;
+            top: 455px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Color scheme switcher</h1>
+        <div class="boxes">
+            <div class="upboxes">
+                <div class="button" id="grey"></div>
+                <div class="button" id="yellow"></div>
+            </div>
+            <div class="downboxes">
+                <div class="button" id="blue"></div>
+            <div class="button" id="purple"></div>
+            </div>
+           
+           
+        </div>
+        <h2>Try clicking on these button to change the color of the body</h2>
+    </div>
+
+
+</body>
+<script src="1.js"></script>
+
+</html>
